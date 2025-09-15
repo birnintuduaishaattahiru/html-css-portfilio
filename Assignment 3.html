@@ -1,0 +1,128 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>My website</title>
+        <style>
+            .header {
+                background-color: #f1f1f1;
+                padding: 20px;
+                text-align: left;
+            }
+            
+            .topnav {
+                overflow: hidden;
+                background-color: #ff00ff;
+            }
+            
+            .topnav a {
+                float: left;
+                display: block;
+                color: #000080;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            .topnav a:hover {
+                background-color: #ff0000;
+                color: black;
+            }
+            
+            .column {
+                float: left;
+                padding: 20px;
+                width: 50%;
+                
+            }
+            
+            .column.side {
+                width: 25%;
+                
+            }
+            
+            .column.middle {
+                width: 50px;
+            }
+            
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            @media screen and (max-width:600px)
+            {
+            
+            .column.side, .column.middle {
+                width:100%
+            }
+            }
+            
+            .footer {
+                background-color: #f1f1f1;
+                padding: 10px;
+                text-align: center;
+            }
+            
+            .column img {
+                border-radius: 20pxpx;
+                width: 150px;
+                height: 150px;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <figure>
+                <nav>
+                    
+        <div id="home">
+            <h1>Sunama's Collection</h1>
+        <div class="topnav">
+            
+            <a href="#" style="pink">Home</a>
+            <a href="#">About</a>
+            <a href="#">portfollo</a>
+        </div>
+        
+        <div class="row">
+        <div class="column">
+            <h2>Home</h2>
+            <img src="sunama2.jpg" 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nostrum iusto, quibusdam commodi dignissimos voluptatum repudiandae illum dicta facilis excepturi.</p>
+            </div>
+            
+            <div class="column">
+                <h2>About</h2>
+                <img src="sunama.jpg"
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nostrum iusto, quibusdam commodi dignissimos voluptatum repudiandae illum dicta facilis excepturi. </p>
+            </div>
+            
+            <div class="column">
+                <h2>portfollo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nostrum iusto, quibusdam commodi.</p>
+            </div>
+        </div>
+        <div class="footer">
+                    <form>
+            <h3>Contact</h3>
+            <label>First Name</label>
+            <input type="text">
+            <br>
+            <label>Last Name</label>
+            <input type="text">
+            <br>
+            <br>
+            <label>Email</label>
+            <input type="text">
+            <br>
+            <label>Phone No</label>
+            <input type="tel">
+            <br>
+            <label>message</label>
+            <input type="text">
+        </form>
+        </div>
+    </body>
+</html>
